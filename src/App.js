@@ -1,13 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Header from './components/Header/Header';
+import Homepage from './pages/Homepage/Homepage';
 
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-      <h1>HI!! BITCH!<h1>
-      </header>
+      <Header/>
+    <Homepage/>
     </div>
+
   );
 }
 
