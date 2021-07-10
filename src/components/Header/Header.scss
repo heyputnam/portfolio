@@ -124,9 +124,17 @@ margin-left: 48%;
         // text-underline-offset: 7px;
         // text-decoration: underline 3px yellow;
         // letter-spacing: 2px;
+
+    }
+    .work:hover{
+        color: #68A4FE,
+    }
+    .contact:hover{
+        color: #FEF468
+    }
+    .about:hover{
         color: #FE6868
     }
-
     @keyframes floating {
         0% { transform: translate(-60deg,  0px); }
         50%  { transform: translate(0, 15px); }

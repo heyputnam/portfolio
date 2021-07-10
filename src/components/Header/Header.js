@@ -22,13 +22,13 @@ const Header = () => {
 
     <li>
    
-        <a href="/work">work.   </a>
+        <a href="/work" className="work">work.   </a>
         </li>
         <li>
-            <a href="/contact">contact.    </a>
+            <a className="contact" href="/contact">contact.    </a>
         </li>
         <li>
-            <a href="/about">about.      </a>
+            <a className="about" href="/about">about.      </a>
         </li>
     </ul>
 </div>
