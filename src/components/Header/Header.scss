@@ -12,7 +12,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 2px solid #FE6868;
+    border-bottom: 2px solid #68A4FE;
 }
 .left{
     display: flex;
@@ -63,7 +63,7 @@ html{
         // transform: rotate(-0.5turn), rotate(0.5turn);
         // transform: rotate(1turn);
         transform: scale(2.5, 0.8);
-        transition: all 1s ease-in;
+        transition: all 0.9s ease-in;
         margin-left: 200px;
         margin-right: -0.2rem;
         font-size: 1.7rem;
@@ -116,10 +116,12 @@ margin-left: 48%;
             transition:  transform 1s ease-in-out;
         
            
-           
+         
         }
 
-  
+        mark{
+            background: transparent;
+        }
     a:hover{
         // text-underline-offset: 7px;
         // text-decoration: underline 3px yellow;
@@ -127,13 +129,30 @@ margin-left: 48%;
 
     }
     .work:hover{
-        color: #68A4FE,
+        mark{
+            // display: inline;
+        color: #FEFBD3;
+        background: #68A4FE;
+
+
+        }
     }
     .contact:hover{
-        color: #FEF468
+    mark{
+        // color: #FEF468;
+        color: #FEFBD3;
+        background: #FEF468;
+
+        }
     }
     .about:hover{
-        color: #FE6868
+        mark{
+            // display: inline;
+        color: #FEFBD3;
+        background: #FE6868;
+
+
+        }
     }
     @keyframes floating {
         0% { transform: translate(-60deg,  0px); }

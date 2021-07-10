@@ -15,20 +15,23 @@ const Header = () => {
     </a>
 
 </div>
-<img className="smile" src={smile} alt="person"></img>
+
+<img className="smile" src={smile} alt="person">
+</img>
+
 <div className="right">
 
     <ul>
 
     <li>
    
-        <a href="/work" className="work">work.   </a>
+        <a href="/work" className="work"><mark>work.   </mark></a>
         </li>
         <li>
-            <a className="contact" href="/contact">contact.    </a>
+            <a className="contact" href="/contact"><mark>contact.   </mark> </a>
         </li>
         <li>
-            <a className="about" href="/about">about.      </a>
+            <a className="about" href="/about"><mark>about.   </mark>   </a>
         </li>
     </ul>
 </div>
