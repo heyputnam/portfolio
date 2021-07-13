@@ -12,7 +12,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 2px solid #68A4FE;
+    border-bottom: 3px solid #68A4FE;
 }
 .left{
     display: flex;
@@ -71,13 +71,13 @@ html{
 
 }
 .smile{
+    display: none;
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
     margin-top: 0.5rem;
 margin-left: 48%;
 }
-
 .right{
 // width: 100%;
     ul{
@@ -102,12 +102,7 @@ margin-left: 48%;
         margin-left: 1.5rem;
   
     }
-    li{
-        // margin-top: -75px;
 
-
-        
-    }
   
  li:hover{
             animation: floating 1.5s ease-in-out
@@ -141,7 +136,7 @@ margin-left: 48%;
     mark{
         // color: #FEF468;
         color: #FEFBD3;
-        background: #FEF468;
+        background: #68A4FE;
 
         }
     }
@@ -149,7 +144,7 @@ margin-left: 48%;
         mark{
             // display: inline;
         color: #FEFBD3;
-        background: #FE6868;
+        background: #68A4FE;
 
 
         }
