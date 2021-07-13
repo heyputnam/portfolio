@@ -79,7 +79,13 @@ html{
 margin-left: 48%;
 }
 .right{
-// width: 100%;
+img{
+    cursor: pointer;
+    position: absolute;
+    display: inline;
+    height: 55px;
+    width: 45px;
+}
     ul{
         // position: absolute;
         margin-top: 1rem;

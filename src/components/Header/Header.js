@@ -1,9 +1,7 @@
 import './Header.scss'
 import smile from '../../images/smile.png'
-import line2 from '../../images/line2.png'
-import line from '../../images/line.png'
-import line3 from '../../images/line3.png'
-import circle from '../../images/circle.png'
+import person from '../../images/bwperson.png'
+
 const Header = () => {
     return(
         <>
@@ -20,7 +18,7 @@ const Header = () => {
 </img>
 
 <div className="right">
-
+        <img src={person}></img>
     <ul>
 
     <li>
