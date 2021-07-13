@@ -9,6 +9,7 @@ import doodle9 from '../../images/doodle9.png'
 import doodle10 from '../../images/doodle10.png'
 import green from '../../images/green.png'
 import butt from '../../images/butt.gif'
+
 import './Homepage.scss' 
 const Homepage = ( ) => {
     return(
@@ -63,6 +64,7 @@ const Homepage = ( ) => {
                 </li>
             </ul>
         </div>
+
         </>
 
     )
