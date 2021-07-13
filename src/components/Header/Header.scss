@@ -12,7 +12,7 @@ html{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 3px solid #68A4FE;
+    border-bottom: 5.5px solid #68A4FE;
 }
 .left{
     display: flex;
@@ -63,9 +63,10 @@ html{
 
         // transform: rotate(-0.5turn), rotate(0.5turn);
         // transform: rotate(1turn);
-        transform: scale(2, 0.8);
-        transition: all 0.9s ease-in;
-        margin-left: 120px;
+        transform: scale(1.1, 1.2);
+        transform: skew(-13deg);
+        transition: all 0.5s ease-in;
+        margin-left: 10px;
         margin-right: -0.2rem;
         font-size: 1.7rem;
     }
@@ -86,6 +87,11 @@ img{
     display: inline;
     height: 55px;
     width: 45px;
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: scale 1s ease-in-out;
 }
     ul{
         // position: absolute;
