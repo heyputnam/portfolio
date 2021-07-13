@@ -7,11 +7,17 @@ import Wave from 'react-wavify'
 const Footer = () =>{
 
     return(
+        <>
+        <div className="container">
+
+        <div className='hover'> 
+
+        </div>
         <div className="wave">
             <Wave
             fill='#68A4FE'
             options={{
-                height: 5,
+                height: 60,
                 speed: 0.3,
     
             }}
@@ -19,6 +25,8 @@ const Footer = () =>{
             />
         <h1>hi</h1>
         </div>
+        </div>
+        </>
     )
 }
 

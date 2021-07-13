@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
+import Contact from './pages/Contact/Contact'
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 ReactDOM.render(
@@ -11,6 +12,7 @@ ReactDOM.render(
 <Switch>
   <Route exact path="/" component={App}></Route>
   {/* <Route path="test"></Route> */}
+  <Route path="/contact" component={Contact}></Route>
 </Switch>
     </Router>
   </React.StrictMode>,
