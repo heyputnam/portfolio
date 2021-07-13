@@ -11,7 +11,7 @@ const Footer = () =>{
         <div className="container">
 
         <div className='hover'> 
-
+        <p>hi friends, let's work togather!</p>
         </div>
         <div className="wave">
             <Wave
@@ -19,7 +19,6 @@ const Footer = () =>{
             options={{
                 height: 60,
                 speed: 0.3,
-    
             }}
         
             />

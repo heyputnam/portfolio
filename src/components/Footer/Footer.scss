@@ -13,17 +13,24 @@ grid-template-rows: 100%;
 }
 
 .container{
+    cursor: pointer;
     .wave{
         display: none;
     }
     .hover{
         display: flex;
+        justify-content: center;
         position: fixed;
         bottom: 0;
         left: 0;
-        height: 20px;
+        height: 15px;
         width: 100%;
         background: #68A4FE;
+        p{
+            margin-top: -2px;
+
+            font-size: 14px;
+        }
     }
 }
 
