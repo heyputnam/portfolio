@@ -1,100 +1,163 @@
 
 
-
+html{
+    background: #FEFBD3;
+}
 .header{
-    background: white;
+    position: fixed;
+    top: 0;
+    background: #FEFBD3;
+    width: 100%;
     height: 3.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom:2px solid black;
+    border-bottom: 3px solid #68A4FE;
 }
 .left{
     display: flex;
     flex-direction: row;
-
+    justify-content: space-between;
     a{
         text-decoration: none;
     
-    color: rgb(255, 255, 255);
+    color: white;
     text-shadow:
-      0 0 1.7px black,
-       0 0 1.7px black,
-        0 0 1.7px black, 0 0 1.7px black,
-      3px  3px blue, 
-      6px 6px yellow ,
-      9px 9px  red;
+    //   0 0 1.7px black,
+    //    0 0 1.7px black,
+    //     0 0 1.7px black, 0 0 1.7px black,
+    //  0.3px  2px black, 
+    //    0.5px 4px white ,
+    // 0.8px 6px  black,
+    // 1px 8px  white,
+    // 1.2px 6px  black;
+    0 0 1.7px black,
+   0 0 1.7px black,
+    0 0 1.7px black, 0 0 1.7px black,
+  0.3px  3.5px #68A4FE, 
+  0.6px 6.7px #FEF468 ,
+  0.9px 9.5px  #FE6868;
+
     }
     h1 {
         // padding-left: 0.5rem;
+        transform: skew(-13deg);
         line-height: 0.5;
         font-family: 'Shrikhand', cursive;
-        font-size: 1.4rem;
-        margin-top: 25px;
+        font-size: 1.5rem;
+        margin-top: 20px;
         margin-left: 10px;
+
     }
 
     h1:hover{
+        // FEFBD3
         color: white;
         text-shadow:  
         0 0 1.7px black,
        0 0 1.7px black,
         0 0 1.7px black, 0 0 1.7px black,
-      3px  3px blue, 
-      6px 6px yellow ,
-      9px 9px  red;
+      0.3px  3.5px #68A4FE, 
+      0.6px 6.7px #FEF468 ,
+      0.9px 9.5px  #FE6868;
 
-        transform: rotate(-0.5turn), rotate(0.5turn);
-        transform: rotate(1turn);
-        transition: all 2s ease-in;
-        margin-top: 25px;
-        margin-left: 10px;
+        // transform: rotate(-0.5turn), rotate(0.5turn);
+        // transform: rotate(1turn);
+        transform: scale(2, 0.8);
+        transition: all 0.9s ease-in;
+        margin-left: 120px;
         margin-right: -0.2rem;
-        font-size: 1.3rem;
-    }
-    img{
-        margin-left: 0.5rem;
+        font-size: 1.7rem;
     }
 
 }
-
+.smile{
+    display: none;
+    position: absolute;
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: 0.5rem;
+margin-left: 48%;
+}
 .right{
+img{
+    cursor: pointer;
+    position: absolute;
+    display: inline;
+    height: 55px;
+    width: 45px;
+}
     ul{
-        margin-top: 1.1rem;
+        // position: absolute;
+        margin-top: 1rem;
+        margin-right: 1rem;
         list-style: none;
         display: flex;
         flex-direction: row;
+        // margin-left: 39%;
     }
-
+  
+  
 
     li a{
+        // margin-left: 2.8rem;
         font-size: 23px;
         text-decoration: none;
-        color: black;
-        margin: 1rem;
-        font-family: 'Zilla Slab Highlight', cursive;
+        color:black;
+        font-family: 'Inter', sans-serif;
+        font-weight: 800;
+        margin-left: 1.5rem;
+  
+    }
+
+  
+ li:hover{
+            animation: floating 1.5s ease-in-out
+            infinite;
+            transform: skew(-14deg);
+            transition:  transform 1s ease-in-out;
         
+           
+         
+        }
 
-    }
-    li{
-        transform: skew(-17deg);
-        
-    }
-
-    li:hover{
-        animation: floating 1.5s ease-in-out
-        infinite;
-
-       
-       
-    }
+        mark{
+            background: transparent;
+        }
     a:hover{
-        // text-underline-offset: 4px;
-        // text-decoration: underline 6px yellow;
-    }
+        // text-underline-offset: 7px;
+        // text-decoration: underline 3px yellow;
+        // letter-spacing: 2px;
 
+    }
+    .work:hover{
+        mark{
+            // display: inline;
+        color: #FEFBD3;
+        background: #68A4FE;
+
+
+        }
+    }
+    .contact:hover{
+    mark{
+        // color: #FEF468;
+        color: #FEFBD3;
+        background: #68A4FE;
+
+        }
+    }
+    .about:hover{
+        mark{
+            // display: inline;
+        color: #FEFBD3;
+        background: #68A4FE;
+
+
+        }
+    }
     @keyframes floating {
-        0% { transform: translate(-250deg,  0px); }
+        0% { transform: translate(-60deg,  0px); }
         50%  { transform: translate(0, 15px); }
         100%   { transform: translate(90deg, -5px); }   
     }
